@@ -1,0 +1,151 @@
+.elementor-kit-49 {
+  --e-global-color-primary: #000000;
+  --e-global-color-secondary: #ff1226;
+  --e-global-color-text: #c4c4c4;
+  --e-global-color-accent: #8f8f8f;
+  --e-global-typography-primary-font-family: "Roboto";
+  --e-global-typography-primary-font-weight: 600;
+  --e-global-typography-secondary-font-family: "Montserrat";
+  --e-global-typography-secondary-font-weight: 400;
+  --e-global-typography-text-font-family: "Arial";
+  --e-global-typography-text-font-weight: 400;
+  --e-global-typography-accent-font-family: "Arial";
+  --e-global-typography-accent-font-weight: 500;
+  color: #505050;
+  font-family: "Arial", Sans-serif;
+  font-size: 15px;
+  line-height: 1.5em;
+}
+.elementor-kit-49 button,
+.elementor-kit-49 input[type="button"],
+.elementor-kit-49 input[type="submit"],
+.elementor-kit-49 .elementor-button {
+  background-color: #ff5958;
+  font-family: "Noto Sans", Sans-serif;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #ff5958;
+  border-radius: 0px 0px 0px 0px;
+}
+.elementor-kit-49 button:hover,
+.elementor-kit-49 button:focus,
+.elementor-kit-49 input[type="button"]:hover,
+.elementor-kit-49 input[type="button"]:focus,
+.elementor-kit-49 input[type="submit"]:hover,
+.elementor-kit-49 input[type="submit"]:focus,
+.elementor-kit-49 .elementor-button:hover,
+.elementor-kit-49 .elementor-button:focus {
+  background-color: rgba(2, 1, 1, 0);
+  color: #ff5958;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #ff5958;
+}
+.elementor-kit-49 e-page-transition {
+  background-color: #ffbc7d;
+}
+.elementor-kit-49 a {
+  color:#000000;
+}
+.elementor-kit-49 h1 {
+  color: var(--e-global-color-primary);
+  font-family: "Roboto", Sans-serif;
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+.elementor-kit-49 h2 {
+  color: var(--e-global-color-secondary);
+  font-family: "Montserrat", Sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+.elementor-kit-49 h3 {
+  color: #6f6d6d;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+.elementor-kit-49 h4 {
+  color: #01244b;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+.elementor-kit-49 h5 {
+  color: #01244b;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+.elementor-kit-49 h6 {
+  color: #01244b;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+.elementor-kit-49 label {
+  color: #01244b;
+  font-family: "Montserrat", Sans-serif;
+}
+.elementor-kit-49 input:not([type="button"]):not([type="submit"]),
+.elementor-kit-49 textarea,
+.elementor-kit-49 .elementor-field-textual {
+  font-family: "Noto Sans", Sans-serif;
+  color: #ffffff;
+  background-color: #ffffff;
+}
+.elementor-section.elementor-section-boxed > .elementor-container {
+  max-width: 1140px;
+}
+.e-con {
+  --container-max-width: 1140px;
+}
+.elementor-widget:not(:last-child) {
+  margin-block-end: 20px;
+}
+.elementor-element {
+  --widgets-spacing: 20px 20px;
+  --widgets-spacing-row: 20px;
+  --widgets-spacing-column: 20px;
+}
+
+h1.entry-title {
+  display: var(--page-title-display);
+}
+.site-header .site-branding {
+  flex-direction: column;
+  align-items: stretch;
+}
+.site-header {
+  padding-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+.site-footer .site-branding {
+  flex-direction: column;
+  align-items: stretch;
+}
+@media (max-width: 1024px) {
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1024px;
+  }
+  .e-con {
+    --container-max-width: 1024px;
+  }
+}
+@media (max-width: 767px) {
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 767px;
+  }
+  .e-con {
+    --container-max-width: 767px;
+  }
+}
